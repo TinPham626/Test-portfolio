@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.section img{
+    border-radius: 1rem;
+    max-width: 30rem;
+    max-height: 30rem;
+}
+
+.section h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.section p {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.text  {
+    max-width: 35rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1.5rem;
+}
