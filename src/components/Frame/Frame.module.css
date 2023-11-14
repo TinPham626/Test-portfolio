@@ -7,13 +7,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5vw;
 }
 
 .section img{
     border-radius: 1rem;
-    max-width: 30rem;
-    max-height: 30rem;
+    max-width: 300px;
 }
 
 .section h1 {
@@ -28,7 +27,7 @@
     line-height: 3rem;
 }
 
-.text  {
+.text {
     max-width: 35rem;
 
     display: flex;
@@ -37,4 +36,11 @@
     align-items: center;
 
     gap: 1.5rem;
+}
+
+@media screen and (max-width: 720px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+    }
 }
